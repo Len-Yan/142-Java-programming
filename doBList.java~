@@ -1,0 +1,28 @@
+/*
+ * do something with list kind of relate to shopping list.
+ * 
+ * @author Lengfan Yan
+ * @version "Make-Up" Assignment: MyList
+ */ 
+
+class doBList implements BasictList {
+  //field
+  int[] a;
+  int count = 0;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}

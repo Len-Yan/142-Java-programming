@@ -1,0 +1,22 @@
+
+
+public class t5 {
+ public void whileloop(){  
+  
+    int x = 1;
+    double number = 3.0000;
+ 
+    while (x <= 37){
+      number *= 10.0; 
+      
+       System.out.println(number + "     " + x);
+         x = x +1;
+    }}
+ 
+
+ 
+ public static void main(String[] args) {
+ 
+    t5 loops2 = new t5();
+    loops2.whileloop();}}
+ 

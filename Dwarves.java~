@@ -1,0 +1,57 @@
+/*
+ * This is the starting point code for Lab 11.
+ */
+public class Dwarves {
+
+  // The collect to hold the names
+  private java.util.ArrayList dwarves;
+  
+  /**
+   * Add the names of the dwarves to the collection.
+   */
+  public void addNames() {
+    add("Doc");
+    add("Grumpy");
+    add("Happy");
+    add("Sleepy");
+    add("Bashful");
+    add("Sneezy");
+    add("Dopey");
+  }
+  
+  /**
+   * Add a single name to the collection
+   * @param name The name to be added
+   */
+  public void add(String name) {
+     dwarves.add(name);
+  }
+  
+  /**
+   * A simple method to print out the contents of
+   * the collection, using the for loop.
+   */
+  public void print() {
+  }
+
+  /**
+   * A second method to print out the contents of
+   * the collection, using an Iterator.
+   */
+  public void print2() {
+  }
+
+  /**
+   * The application method
+   * @param args Command-line parameters
+   */
+  public static void main(String[] args) {
+     // instantiate the Dwarves class
+     Dwarves theGuys = new Dwarves();
+     theGuys.addNames();
+     theGuys.print();
+     theGuys.print2();
+  }
+  
+}
+

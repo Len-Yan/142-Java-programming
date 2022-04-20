@@ -1,0 +1,38 @@
+//Lengfan Yan
+//csc142
+//assignment 3: tic-tac-toe
+//
+
+public class Tic_Tac_ToeBoard {
+  /**
+   * draw tic-tac-toe
+   * @author Lengfan Yan
+   * @version assignment3 
+   * 
+   * 
+   */
+  //
+  private Tic_Tac_ToeBoard() {
+    NsccWindow win = new NsccWindow(10,10,330,330);
+    win.setTitle("tic-tac-toe board");
+    int x;
+    int y;
+    
+    //@param param for set the location of board
+    public void DrawTicTacToe(x, y) {
+      NsccLine onex = new NsccLine(30 + x, 0+y, 30 + x, 90 + y);
+      win.add(onex);
+      NsccLine twox = new NsccLine(60 + x, 0+y,60 + x, 90 + y);
+      win.add(twox);
+      NsccLine oney = new NsccLine(0 + x, 30 + y, 90+ x, 30 + y);
+      win.add(oney);
+      NsccLine twoy = new NsccLine(0 + x, 60 + y, 90+ x, 60 + y);
+      win.add(twoy);
+      
+      win.repaint();    
+  }
+     public static void main(String[] args) {
+       Tic_Tac_ToeBorad drawttt;
+       drawttt = new Tic_Tac_ToeBorad();
+       drawttt.DrawTicTacToe(50,50);
+     }}}

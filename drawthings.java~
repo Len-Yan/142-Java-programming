@@ -1,0 +1,22 @@
+public class drawthings{
+  
+  DrawingPanel dp = new DrawingPanel(200,200);
+  
+  
+  public void traffic(){
+    dp.setTitle("traffic light");
+    java.awt.Graphics g = dp.getGraphics();
+    
+    g.drawRect(0,0,100,100);
+    g.drawOval(50, 50, 100, 100);
+
+    
+    dp.repaint();
+  }
+    
+    
+  public static void main(String[] args) {
+    drawthings d = new drawtings();
+    d.traffic();
+  }
+}
