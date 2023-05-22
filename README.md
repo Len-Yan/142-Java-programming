@@ -1,2 +1,2 @@
 # 142
-Old Java basic code from North Seattle college class 
+Some really old basic Java assignment code from North Seattle college class 
